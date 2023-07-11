@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>6.Layout 실습</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            ul,ol {list-style: none;}
+            a {text-decoration: none; color:#111;}
+
+            #container {
+                width: 860px;
+                height: auto;
+                background: #aaa;
+                padding: 10px;
+                box-sizing: border-box;
+                margin: 0 auto;
+            }
+            header {
+                width: 100%
+                
+            }
+            main {}
+            main > aside {}
+            main > section {}
+            footer {}
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h3>header</h3>     
+            </header>
+            <main>
+                <h3>main</h3>
+                <aside>
+                    <h3>aside #1</h3>
+                    <h3>aside #2</h3>
+                </aside>
+                <section>
+                    <h3>section</h3>
+                </section>
+            </main>
+            <footer>
+                <h3>footer</h3>
+            </footer>
+
+        </div>
+    </body>
+</html>
